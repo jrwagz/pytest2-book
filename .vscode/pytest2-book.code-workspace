@@ -1,0 +1,35 @@
+{
+     "folders": [
+          {
+               "path": ".."
+          }
+     ],
+     "settings": {
+          "python.linting.pylintEnabled": true,
+          "python.linting.enabled": true,
+          "editor.tabCompletion": "on",
+          "editor.snippetSuggestions": "top",
+          "python.defaultInterpreterPath": "python3.10",
+          "python.formatting.provider": "black",
+          "python.formatting.blackArgs": [
+               "--line-length",
+               "100",
+               "-t",
+               "py310"
+          ],
+          "editor.formatOnSave": true,
+          "editor.rulers": [
+               100
+          ],
+          "[python]": {
+               "editor.insertSpaces": true,
+               "editor.tabSize": 4,
+               "editor.detectIndentation": false,
+          },
+          "python.testing.pytestArgs": [
+               "tests"
+          ],
+          "python.testing.unittestEnabled": false,
+          "python.testing.pytestEnabled": true
+     }
+}
