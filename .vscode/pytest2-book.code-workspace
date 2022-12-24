@@ -30,6 +30,20 @@
                "tests"
           ],
           "python.testing.unittestEnabled": false,
-          "python.testing.pytestEnabled": true
+          "python.testing.pytestEnabled": true,
+          "search.exclude": {
+               "**/.git/**": true,
+               "**/.pytype/**": true,
+               "**/.pytest_cache/**": true,
+               "**/.venv/**": true,
+               "**/htmlcov/**": true
+          },
+          "files.watcherExclude": {
+               "**/.git/**": true,
+               "**/.pytype/**": true,
+               "**/.pytest_cache/**": true,
+               "**/.venv/**": true,
+               "**/htmlcov/**": true
+          }
      }
 }
